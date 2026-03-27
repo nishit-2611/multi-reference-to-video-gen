@@ -68,6 +68,19 @@ Then in the browser UI:
 - Click **Generate Video**
 - Preview and download the generated `.mp4`
 
+## Batch queue mode
+
+The Streamlit UI includes a **Batch Queue** tab:
+
+- Add multiple items where each item has:
+  - its own prompt
+  - 1 to 4 reference images
+  - output filename
+- Click **Run All Queue Items** to process jobs sequentially, one by one.
+- Review results per item and download each generated video.
+
+This helps reduce manual waiting/interaction because you can enqueue all jobs once.
+
 With 4 references:
 
 ```bash
